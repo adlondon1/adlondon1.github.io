@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   // height: 500px;
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1433360405326-e50f909805b3?crop=entropy&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/London/adlondon1.github.io/images/swirl.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
   justify-content: center;
   h1 {
-    color: $white;
+    color: $tan;
     font-size: 70px;
     margin: 0;
     text-align: center;
     font-weight: 100;
   }
   h3 {
-    color: $white;
+    color: $tan;
     font-size: 20px;
     padding: 5px;
     // border-top: 2px solid $blue;
@@ -25,9 +25,9 @@
   button {
     margin-top: 100px;
     padding: 6px 8px;
-    color: $white;
+    color: $tan;
     background-color: transparent;
-    border: 1px solid $white;
+    border: 1px solid $tan;
     outline: none;
     transition: all .3s ease-in-out;
       &:hover {

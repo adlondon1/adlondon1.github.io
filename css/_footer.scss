@@ -7,7 +7,7 @@ footer {
   flex-wrap: wrap;
   background-color: $black;
   h1 {
-    color: $white;
+    color: $tan;
     // border-bottom: 3px solid $blue;
     // width: 100%;
     text-align: center;
@@ -37,7 +37,7 @@ footer {
     }
   }
   #phone {
-    color: $white;
+    color: $tan;
     p {
       margin-bottom: 10px;
     }
@@ -53,10 +53,10 @@ footer {
 }
 
 a {
-  color: $white;
+  color: $tan;
   transition: all .3s ease-in-out;
   &:visited {
-    color: $white;
+    color: $tan;
   }
   &:hover {
     color: $blue;
