@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 700px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/cherry.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Users/London/adlondon1.github.io/images/swirl.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +31,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/London/adlondon1.github.io/images/swirl.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Users/London/adlondon1.github.io/images/swirl.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
