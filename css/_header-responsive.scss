@@ -1,3 +1,6 @@
+@media only screen and (min-width : 0px) and (max-width : 800px) {
+
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -8,6 +11,9 @@
   background-position: center;
   align-items: center;
   justify-content: center;
+  img {
+    margin-bottom: 0;
+  }
   // h1 {
   //   color: $tan;
   //   font-size: 70px;
@@ -22,17 +28,8 @@
   //   // border-top: 2px solid $blue;
   //   // border-bottom: 2px solid $blue;
   // }
-  button {
-    display: none !important;
-    margin-top: 100px;
-    padding: 6px 8px;
-    color: $tan;
-    background-color: transparent;
-    border: 1px solid $tan;
-    outline: none;
-    transition: all .3s ease-in-out;
-      &:hover {
-        background-color: $blue;
-      }
+  i {
+    display: none;
   }
+}
 }
