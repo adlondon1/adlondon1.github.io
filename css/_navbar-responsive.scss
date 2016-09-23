@@ -1,4 +1,4 @@
-@media only screen and (min-width : 0px) and (max-width : 800px) {
+@media only screen and (min-width : 0px) and (max-width : 500px) {
   nav, #sticky-wrapper {
     display: none;
   }
@@ -25,7 +25,7 @@
        margin: 5px 0;
       //  background: rgb(0,0,0);
        z-index: 100;
-       background: $green;
+       background: white;
       }
      }
      .menu-color {

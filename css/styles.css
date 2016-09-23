@@ -25,7 +25,6 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/swirl-copy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     align-items: center;
     justify-content: center; }
@@ -62,7 +61,7 @@ nav {
 .mobile-nav {
   display: none; }
 
-@media only screen and (min-width: 0px) and (max-width: 800px) {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
   nav, #sticky-wrapper {
     display: none; }
   .mobile-nav {
@@ -85,7 +84,7 @@ nav {
         height: 4px;
         margin: 5px 0;
         z-index: 100;
-        background: #82a78c; }
+        background: white; }
     .mobile-nav .menu-color {
       background: #fff !important; }
     .mobile-nav .responsive-menu {
@@ -131,7 +130,7 @@ nav {
       .about .about-div .skills p {
         font-size: 20px; }
 
-@media only screen and (min-width: 0px) and (max-width: 800px) {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
   #about {
     flex-direction: column-reverse; }
   .about {
@@ -285,7 +284,7 @@ body {
   margin: 0 auto;
   padding: 0; }
 
-@media only screen and (min-width: 0px) and (max-width: 800px) {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
   .container {
     width: 85%;
     margin: 0 auto;
