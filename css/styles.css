@@ -8,27 +8,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center; }
-  .hero h1 {
+  .hero img {
+    width: 300px;
+    margin-bottom: 100px; }
+  .hero i {
+    font-size: 48px;
     color: #fff;
-    font-size: 100px;
-    margin: 0;
-    font-weight: 100; }
-  .hero h3 {
-    color: #fff;
-    font-size: 30px;
-    padding: 5px; }
-  .hero button {
-    margin-top: 100px;
-    padding: 6px 8px;
-    color: #fff;
-    background-color: transparent;
-    border: 1px solid #fff;
-    outline: none;
     transition: all .3s ease-in-out; }
-    .hero button:hover {
-      background-color: #8294a7; }
 
 .hero {
   display: flex;
@@ -40,17 +28,8 @@
   background-position: center;
   align-items: center;
   justify-content: center; }
-  .hero h1 {
-    color: #fff;
-    font-size: 70px;
-    margin: 0;
-    text-align: center;
-    font-weight: 100; }
-  .hero h3 {
-    color: #fff;
-    font-size: 20px;
-    padding: 5px; }
   .hero button {
+    display: none !important;
     margin-top: 100px;
     padding: 6px 8px;
     color: #fff;
@@ -79,6 +58,9 @@ nav {
       transition: all .3s ease-in-out; }
       nav ul a:hover {
         color: #8294a7; }
+      nav ul a:active, nav ul a:focus {
+        text-decoration: none;
+        color: #82a78c; }
       nav ul a li {
         font-size: 24px;
         text-align: center; }
@@ -109,7 +91,7 @@ nav {
         height: 4px;
         margin: 5px 0;
         z-index: 100;
-        background: black; }
+        background: #82a78c; }
     .mobile-nav .menu-color {
       background: #fff !important; }
     .mobile-nav .responsive-menu {
@@ -131,7 +113,7 @@ nav {
 .about {
   display: flex;
   flex-wrap: wrap;
-  padding: 8% 0;
+  padding: 8% 0 0 0;
   justify-content: center; }
   .about .about-div {
     display: flex;
@@ -141,11 +123,12 @@ nav {
     .about .about-div .about-picture {
       width: 25%; }
     .about .about-div .about-paragraph {
-      font-size: 20px;
-      width: 36%;
-      margin-bottom: 20px; }
+      width: 36%; }
       .about .about-div .about-paragraph h3 {
         margin-top: 0px; }
+      .about .about-div .about-paragraph p {
+        font-size: 24px;
+        margin: 0; }
     .about .about-div .skills {
       width: 38%;
       text-align: center; }
@@ -155,6 +138,8 @@ nav {
         font-size: 20px; }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
+  #about {
+    flex-direction: column-reverse; }
   .about {
     display: flex;
     flex-wrap: wrap;
@@ -167,7 +152,8 @@ nav {
       align-items: center;
       margin-top: 5%; }
       .about .about-div .about-picture {
-        width: 100%; }
+        width: 100%;
+        margin-bottom: 5%; }
       .about .about-div .about-paragraph {
         font-size: 20px;
         width: 100%;
@@ -203,7 +189,8 @@ footer {
   width: 100vw;
   background-color: black;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 8%; }
   footer h1 {
     color: #fff;
     text-align: center;
@@ -251,7 +238,8 @@ footer {
   flex-direction: column;
   background-color: black;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 80px; }
   footer h1 {
     color: #fff;
     text-align: center;
@@ -305,7 +293,7 @@ body {
   overflow-x: hidden; }
 
 .container {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0; }
 

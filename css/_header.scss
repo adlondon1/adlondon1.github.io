@@ -8,31 +8,28 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  h1 {
-    color: $tan;
-    font-size: 100px;
-    margin: 0;
-    font-weight: 100;
+  img {
+    width: 300px;
+    margin-bottom: 100px;
   }
-  h3 {
+  // h1 {
+  //   color: $tan;
+  //   font-size: 100px;
+  //   margin: 0;
+  //   font-weight: 100;
+  // }
+  // h3 {
+  //   color: $tan;
+  //   font-size: 30px;
+  //   padding: 5px;
+  //   // border-top: 2px solid $blue;
+  //   // border-bottom: 2px solid $blue;
+  // }
+  i {
+    font-size: 48px;
     color: $tan;
-    font-size: 30px;
-    padding: 5px;
-    // border-top: 2px solid $blue;
-    // border-bottom: 2px solid $blue;
-  }
-  button {
-    margin-top: 100px;
-    padding: 6px 8px;
-    color: $tan;
-    background-color: transparent;
-    border: 1px solid $tan;
-    outline: none;
     transition: all .3s ease-in-out;
-    &:hover {
-      background-color: $blue;
-    }
   }
 }

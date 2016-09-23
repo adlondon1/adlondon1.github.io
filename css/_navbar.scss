@@ -17,6 +17,10 @@ nav {
       &:hover {
         color: $blue;
       }
+      &:active, &:focus {
+        text-decoration: none;
+        color: $green;
+      }
       li {
         font-size: 24px;
         text-align: center;
