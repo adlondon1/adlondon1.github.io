@@ -166,8 +166,9 @@ nav {
 .owl-carousel {
   height: 500px;
   overflow: hidden;
-  display: flex;
+  display: flex !important;
   align-items: center;
+  z-index: -1;
 }
 
 .products {
