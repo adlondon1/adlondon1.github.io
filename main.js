@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+  console.log("doot");
   $(".owl-carousel").owlCarousel({
     loop:true,
     margin:10,
