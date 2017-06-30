@@ -1,5 +1,18 @@
 
 $(document).ready(function() {
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    autoplay: true,
+    center: true,
+    mergeFit: true,
+    responsive:{
+        0:{
+            items:1,
+        }
+      }
+  });
   $('.scroll').localScroll()
   $('nav').sticky();
   //help with hamburger menu

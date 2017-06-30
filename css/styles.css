@@ -3,13 +3,19 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/swirl.jpeg);
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/taduuda-76964.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+.hero h1 {
+  font-size: 60px;
+}
   .hero img {
     width: 300px;
     margin-bottom: 100px; }
@@ -22,7 +28,7 @@
   .hero {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/swirl-copy.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/taduuda-76964.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +37,9 @@
     .hero img {
       margin-bottom: 0; }
     .hero i {
-      display: none; } }
+      display: none;
+    }
+  }
 
 nav {
   width: 100%;
@@ -46,7 +54,7 @@ nav {
       color: #fff;
       list-style-type: none;
       width: 20%;
-      padding: 20px;
+      padding: 10px;
       margin-top: 0px;
       transition: all .3s ease-in-out; }
       nav ul a:hover {
@@ -114,7 +122,7 @@ nav {
     align-items: center;
     margin-top: 5%; }
     .about .about-div .about-picture {
-      width: 25%; }
+      width:40%; }
     .about .about-div .about-paragraph {
       width: 36%; }
       .about .about-div .about-paragraph h3 {
@@ -154,6 +162,13 @@ nav {
         margin-right: 0%; }
         .about .about-div .about-paragraph p {
           font-size: 20px; } }
+
+.owl-carousel {
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
 
 .products {
   display: flex;

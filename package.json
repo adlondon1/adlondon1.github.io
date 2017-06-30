@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "node-sass": "^3.4.2",
+    "owl-carousel-2": "0.0.3",
     "sticky-anything": "git://github.com/senff/Sticky-Anything.git"
   },
   "devDependencies": {},
