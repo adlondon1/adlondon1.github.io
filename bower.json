@@ -13,6 +13,12 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "owl.carousel": "^2.2.1",
+    "jquery-sticky": "^1.0.4",
+    "font-awesome": "^4.7.0",
+    "font-awesome-animation": "^0.1.0",
+    "jquery.localScroll": "jquery.localscroll#^2.0.0",
+    "jquery.scrollTo": "^2.1.2"
   }
 }
